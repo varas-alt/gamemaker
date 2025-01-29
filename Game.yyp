@@ -31,13 +31,15 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Game",
   "resources":[
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_inputs","path":"scripts/scr_inputs/scr_inputs.yy",},},
+    {"id":{"name":"retarded","path":"sprites/retarded/retarded.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},},
     {"id":{"name":"spr_player_falling","path":"sprites/spr_player_falling/spr_player_falling.yy",},},
