@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"bullet sprites",
     "path":"folders/Sprites/bullet sprites.yy",
@@ -95,7 +95,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":8,
-    "yorigin":0,
+    "yorigin":8,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
