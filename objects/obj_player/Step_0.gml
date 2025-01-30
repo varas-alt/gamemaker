@@ -51,4 +51,6 @@ else
 		sprite_index = spr_player_walk
 	}
 }
-if (hsp != 0) image_xscale = sign(hsp)
+if (hsp != 0) image_xscale = sign(hsp) * 2
+
+
