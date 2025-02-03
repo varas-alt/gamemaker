@@ -1,31 +1,34 @@
-x = obj_player.x+4
-y = obj_player.y-4
+// Positie van het wapen
+x = obj_player.x
+y = obj_player.y - 8;
 
-image_angle = point_direction(x, y, mouse_x, mouse_y)
+// Roteer het wapen naar de muispositie
+image_angle = point_direction(x, y, mouse_x, mouse_y);
+
+// Bereken de barrelpositie (20 pixels van het wapen naar de barrel)
+var barrel_x = x + lengthdir_x(20, image_angle);  // Verplaats de barrel in de richting van het wapen
+var barrel_y = y + lengthdir_y(20, image_angle);  // Verplaats de barrel in de richting van het wapen
 
 
-firingdelay = firingdelay - 1
-recoil = max(0, recoil - 1)
-
-if (mouse_check_button(mb_left)) && (firingdelay < 0)
+if (image_angle > 90) && (image_angle < 270) {
+    image_yscale = -0.75;
+	x = obj_player.x - 8
+} 
+else 
 {
-	recoil = 4
-	firingdelay = 5
-	with (instance_create_layer(x, y, "Bullets", obj_bullet))
-	{
-		speed = 25
-		direction = other.image_angle + random_range(-3,3)
-		image_angle = direction
-	}
-}
-x = x - lengthdir_x(recoil, image_angle)
-y = y - lengthdir_y(recoil, image_angle)
+    image_yscale = 0.75;
+	x = obj_player.x + 8
 
-if (image_angle	> 90) && (image_angle < 270 )
-{
-	image_yscale = -1
 }
-else
-{
-	image_yscale = 1
-}
+
+// Pas de recoil (terugslag) toe
+x = x - lengthdir_x(global.recoil, image_angle);
+y = y - lengthdir_y(global.recoil, image_angle);
+
+// Pas de y-scale van de gun aan afhankelijk van de rotatie
+
+
+
+// Nu stellen we global.barrel_x en global.barrel_y in zodat ze later kunnen worden gebruikt door het firing part
+global.barrel_x = barrel_x;
+global.barrel_y = barrel_y;

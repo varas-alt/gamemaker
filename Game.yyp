@@ -40,6 +40,7 @@
   "resources":[
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_firingpart","path":"objects/obj_firingpart/obj_firingpart.yy",},},
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},},
     {"id":{"name":"obj_heart","path":"objects/obj_heart/obj_heart.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_bullet3","path":"sprites/spr_bullet3/spr_bullet3.yy",},},
     {"id":{"name":"spr_bulletmeme","path":"sprites/spr_bulletmeme/spr_bulletmeme.yy",},},
+    {"id":{"name":"spr_gun_dropped","path":"sprites/spr_gun_dropped/spr_gun_dropped.yy",},},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},},
     {"id":{"name":"spr_heart_potion","path":"sprites/spr_heart_potion/spr_heart_potion.yy",},},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},
