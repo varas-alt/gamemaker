@@ -1,0 +1,1 @@
+global.recoil = 0
