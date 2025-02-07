@@ -9,7 +9,7 @@ vsp = vsp + grv
 
 if (place_meeting(x, y+1, obj_block)) && (key_jump)
 { 
-	vsp = -4;
+	vsp = -8;
 }
 
 if (place_meeting(x+hsp,y,obj_block))
