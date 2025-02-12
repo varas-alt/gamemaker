@@ -6,3 +6,4 @@ walksp = 4;
 hp = 3
 flash = 0
 hitfrom = 0
+depth = -5
