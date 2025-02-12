@@ -23,7 +23,7 @@
   ],
   "name":"spr_gun",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"gun sprites",
     "path":"folders/Sprites/gun sprites.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":41,
+    "xorigin":38,
     "yorigin":20,
   },
   "swatchColours":null,
