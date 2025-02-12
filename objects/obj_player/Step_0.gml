@@ -53,4 +53,11 @@ else
 }
 if (hsp != 0) image_xscale = sign(hsp) * 2
 
+if hp = 0 
+{
+	sprite_index = spr_player_death
+	hsp = 0
+	vsp = 0
+}
+
 

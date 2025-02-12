@@ -4,12 +4,13 @@ vsp = vsp + grv
 
 if (place_meeting(x+hsp,y,obj_block))
 {
-	while (!place_meeting(x+sign(hsp),y,obj_block))
+	while (!place_meeting(x+sign(hsp),y,obj_block)) 
 	{ 
 		x = x + sign(hsp)
 	}
-	hsp = 0
+	hsp = -hsp
 }
+
 
 x = x + hsp
 
@@ -38,5 +39,4 @@ if (place_meeting(x, y+1, obj_block))
 	}
 }
 if (hsp != 0) image_xscale = sign(hsp) * 2
-
 

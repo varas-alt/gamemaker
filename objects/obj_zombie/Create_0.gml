@@ -1,8 +1,6 @@
-hsp = 0
+hsp = 1.5
 vsp = 0
 grv = 0.1
-walksp = 3
-
 
 hp = 5
 flash = 0
