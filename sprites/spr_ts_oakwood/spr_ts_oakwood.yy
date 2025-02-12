@@ -3,7 +3,7 @@
   "%Name":"spr_ts_oakwood",
   "bboxMode":0,
   "bbox_bottom":359,
-  "bbox_left":0,
+  "bbox_left":32,
   "bbox_right":535,
   "bbox_top":0,
   "collisionKind":1,

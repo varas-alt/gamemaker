@@ -1,16 +1,11 @@
 {
   "$GMTileSet":"v1",
   "%Name":"TileSet1",
-  "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-      ],},
-  ],
+  "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":5,
-    "SerialiseWidth":6,
-    "TileCompressedData":[3,1,2,3,-3,0,3,17,18,19,-21,0,],
-    "TileDataFormat":1,
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
   },
   "name":"TileSet1",
   "out_columns":13,

@@ -22,8 +22,6 @@ global.recoil = max(0, global.recoil - 1);
 if (mouse_check_button(mb_left)) && (firingdelay < 0) {
     global.recoil = 4;
     firingdelay = 5;
-	scr_ScreenShake(2,10);
-	
     
     // Maak een kogel aan op de barrelpositie
     var bullet = instance_create_layer(barrel_x, barrel_y - 10, "Bullets", obj_bullet);
