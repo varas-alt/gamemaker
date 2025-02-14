@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Game",
   "resources":[
@@ -70,6 +70,7 @@
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_player_nogun","path":"sprites/spr_player_nogun/spr_player_nogun.yy",},},
+    {"id":{"name":"spr_player_retarded","path":"sprites/spr_player_retarded/spr_player_retarded.yy",},},
     {"id":{"name":"spr_player_shoot","path":"sprites/spr_player_shoot/spr_player_shoot.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"spr_ts_oakwood","path":"sprites/spr_ts_oakwood/spr_ts_oakwood.yy",},},
