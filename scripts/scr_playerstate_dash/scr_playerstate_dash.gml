@@ -5,6 +5,9 @@ function scr_playerstate_dash(){
 //move with dash
 vsp = lengthdir_y(dashsp, dashDirection);
 hsp = sign(image_xscale) * lengthdir_x(dashsp, dashDirection);
+	
+
+
 
 	
 //horizontal collision

@@ -1,3 +1,4 @@
+state = ENEMYSTATE.FREE
 hsp = 1.5
 vsp = 0
 grv = 0.1

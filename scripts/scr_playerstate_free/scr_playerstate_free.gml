@@ -19,8 +19,11 @@ if (key_jump)
 	
 if (canDash && key_dash)
 { 
+	if (image_xscale > 0){
+		dashDirection = point_direction(0, 0, key_right - key_left, key_up - key_down)}
+	else {
+		dashDirection = point_direction(0, 0, key_left - key_right, key_up - key_down)}
 	canDash = false
-	dashDirection = point_direction(0, 0, key_right - key_left, key_up - key_down)
 	dashsp = dashDistance / dashTime
 	dashEnergy = dashDistance
 	state = PLAYERSTATE.DASH
