@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_heart",
-  "eventList":[],
+  "%Name":"obj_healthbar",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_heart",
+  "name":"obj_healthbar",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_heart",
-    "path":"sprites/spr_heart/spr_heart.yy",
+    "name":"spr_health_bar",
+    "path":"sprites/spr_health_bar/spr_health_bar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

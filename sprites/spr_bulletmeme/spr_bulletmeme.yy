@@ -23,7 +23,7 @@
   ],
   "name":"spr_bulletmeme",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"bullet sprites",
     "path":"folders/Sprites/bullet sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":119,
-    "yorigin":238,
+    "yorigin":119,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
