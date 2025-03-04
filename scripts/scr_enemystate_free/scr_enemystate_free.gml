@@ -45,8 +45,11 @@ var dist = distance_to_object(obj_player);
 	}
 	if (hsp != 0) image_xscale = sign(hsp) * 2
 
-	if (dist <= 50) {
+	if (dist <= 80) {
 	state = ENEMYSTATE.CHASE
 	}
+		if (!instance_exists(obj_player)) {
+			hsp = 0
+		}
 }
 

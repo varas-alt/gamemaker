@@ -8,8 +8,8 @@
   "name":"obj_trial",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player objects",
+    "path":"folders/Objects/player objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

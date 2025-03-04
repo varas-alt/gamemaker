@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gun",
+  "%Name":"obj_player_death",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gun",
+  "name":"obj_player_death",
   "overriddenProperties":[],
   "parent":{
-    "name":"gun objects",
-    "path":"folders/Objects/gun objects.yy",
+    "name":"player objects",
+    "path":"folders/Objects/player objects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gun",
-    "path":"sprites/spr_gun/spr_gun.yy",
+    "name":"spr_player_death",
+    "path":"sprites/spr_player_death/spr_player_death.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_gun",
-    "path":"sprites/spr_gun/spr_gun.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

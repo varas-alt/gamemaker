@@ -13,4 +13,9 @@ dashCooldown = 0
 hp = 3
 flash = 0
 hitfrom = 0
+invincible = false
 depth = -5
+
+if (!variable_global_exists("score")) {
+    global.score = 0;
+}

@@ -3,5 +3,4 @@ enum PLAYERSTATE{
 	DEATH,
 	DASH,
 	DAMAGED
-	
 }
