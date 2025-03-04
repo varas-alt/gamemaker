@@ -3,10 +3,10 @@ state = PLAYERSTATE.FREE
 hsp = 0;
 vsp = 0;
 grv = 0.3;
-walksp = 4;
+walksp = 9;
 
 canDash = false
-dashDistance = 110
+dashDistance = 200
 dashTime = 12
 dashCooldown = 0
 
