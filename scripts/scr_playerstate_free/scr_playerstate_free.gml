@@ -80,6 +80,8 @@ if dashCooldown <= 0 && (place_meeting(x,y + 1, obj_block))
 		{
 		canDash = true
 		}
+		
+		
 
 }
 

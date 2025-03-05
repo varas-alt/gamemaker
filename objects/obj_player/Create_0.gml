@@ -10,6 +10,10 @@ dashDistance = 200
 dashTime = 12
 dashCooldown = 0
 
+
+// Slow-motion
+game_speed = 1; // Normale gamesnelheid
+
 hp = 3
 flash = 0
 hitfrom = 0

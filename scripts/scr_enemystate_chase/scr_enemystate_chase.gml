@@ -20,7 +20,7 @@ var dir = sign(x - obj_player.x)
 	
 			hsp = -sign(dir) * 1.5
 	
-		if (dist <= 10){
+		if (dist <= 8){
 			state = ENEMYSTATE.ATTACK
 		}
 	}
