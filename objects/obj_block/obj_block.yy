@@ -6,8 +6,8 @@
   "name":"obj_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"environment objects",
+    "path":"folders/Objects/environment objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

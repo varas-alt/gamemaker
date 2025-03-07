@@ -9,8 +9,8 @@
   "name":"obj_zombie_dead",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemy objects",
+    "path":"folders/Objects/enemy objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

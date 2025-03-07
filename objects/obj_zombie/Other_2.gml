@@ -1,0 +1,5 @@
+enum ENEMYSTATE{
+	FREE,
+	ATTACK,
+	CHASE
+}

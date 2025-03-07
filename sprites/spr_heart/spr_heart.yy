@@ -59,7 +59,7 @@
     },
     "name":"spr_heart",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":38,
+  "width":64,
 }
