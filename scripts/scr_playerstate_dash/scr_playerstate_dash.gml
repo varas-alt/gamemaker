@@ -32,7 +32,7 @@ if (place_meeting(x,y+vsp,obj_block))
 }
 
 //trial
-with (instance_create_depth(x,y,depth+1,obj_trial))
+with (instance_create_depth(x,y,depth+1,obj_trail))
 {
 	sprite_index = other.sprite_index
 	image_blend = c_grey

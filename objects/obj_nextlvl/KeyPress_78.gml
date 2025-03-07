@@ -1,0 +1,1 @@
+scr_SlideTransition(TRANS_MODE.GOTO,Room2)

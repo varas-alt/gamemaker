@@ -11,7 +11,7 @@ if (place_meeting(x, y+1, obj_block) && dashCooldown <= 0)
 	canDash = true
 }
 //zet dit in place meeting voor normale jump 
-if (key_jump)
+if ((place_meeting(x, y+1, obj_block)) &&key_jump)
 {
 	vsp = -8;
 }
@@ -29,7 +29,7 @@ if (canDash && key_dash)
 	state = PLAYERSTATE.DASH
 }
 //horizontal collision
-if (place_meeting(x+hsp,y,obj_block))
+if (place_meeting(x+hsp,y,obj_block ))
 {
 	while (!place_meeting(x+sign(hsp),y,obj_block))
 	{ 
@@ -81,7 +81,12 @@ if dashCooldown <= 0 && (place_meeting(x,y + 1, obj_block))
 		canDash = true
 		}
 		
-		
+		// In de Step Event
+if (hp <= 0) {
+    state = PLAYERSTATE.DEATH
+}
+
+
 
 }
 

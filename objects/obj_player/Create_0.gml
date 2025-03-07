@@ -3,13 +3,14 @@ state = PLAYERSTATE.FREE
 hsp = 0;
 vsp = 0;
 grv = 0.3;
-walksp = 9;
+walksp = 4;
 
 canDash = false
-dashDistance = 200
+dashDistance = 120
 dashTime = 12
 dashCooldown = 0
 
+hascontrol = true
 
 // Slow-motion
 game_speed = 1; // Normale gamesnelheid
@@ -23,3 +24,5 @@ depth = -5
 if (!variable_global_exists("score")) {
     global.score = 0;
 }
+
+

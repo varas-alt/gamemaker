@@ -1,0 +1,1 @@
+audio_stop_sound(sound_final_level);

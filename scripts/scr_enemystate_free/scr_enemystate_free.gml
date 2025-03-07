@@ -7,7 +7,7 @@ var dist = distance_to_object(obj_player);
 	vsp = vsp + grv
 
 
-	if (place_meeting(x+hsp,y,obj_block))
+	if place_meeting(x+hsp,y,obj_block)
 	{
 		while (!place_meeting(x+sign(hsp),y,obj_block)) 
 		{ 

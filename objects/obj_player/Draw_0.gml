@@ -1,5 +1,5 @@
 /// @description flashing
-var interval = 8
+var interval = 10
 if (alarm[1] % interval) <= interval / 2 {
 	gpu_set_fog(false, c_white, 0, 1);
 	}
